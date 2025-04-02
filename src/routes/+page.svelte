@@ -12,7 +12,6 @@
 </svelte:head>
 
 <main>
-	<!-- Hero Section - Simplified -->
 	<section class="flex min-h-screen flex-col items-center justify-center px-4 text-center">
 		<h1 class="mb-4 text-5xl font-bold md:text-6xl">
 			Hi, I'm <span class="text-cyan-400">Kyle Mendell</span>

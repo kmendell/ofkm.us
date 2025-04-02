@@ -85,7 +85,6 @@
 							</div>
 						</div>
 
-						<!-- Project image with fixed square size -->
 						<div class="flex items-center justify-center">
 							{#if project.image}
 								<div class="h-40 w-40 overflow-hidden">
