@@ -18,7 +18,7 @@
 					I'm a support engineer, and open-source developer with a passion for building unique and
 					functional software.<br /><br />
 
-					Im current working on <span class="text-cyan-400">Svelocker UI</span> as the Lead
+					Im currently working on <span class="text-cyan-400">Svelocker UI</span> as the Lead
 					Maintainer, and <span class="text-cyan-400">Pocket ID</span> as a Secondary Maintainer.
 				</p>
 
