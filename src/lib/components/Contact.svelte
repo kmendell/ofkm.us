@@ -12,11 +12,11 @@
 			</p>
 
 			<a
-				href="mailto:kmendell@ofkm.us"
+				href="mailto:ksm@ofkm.us"
 				class="mb-8 flex items-center justify-center gap-2 text-lg text-cyan-400 hover:underline"
 			>
 				<Mail class="h-5 w-5" />
-				kmendell@ofkm.us
+				ksm@ofkm.us
 			</a>
 
 			<div class="flex justify-center space-x-8">
