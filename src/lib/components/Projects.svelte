@@ -14,9 +14,16 @@
 		{
 			title: 'Svelocker UI',
 			description: 'Simple and Modern Docker Registry UI. ',
-			tags: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
+			tags: ['SvelteKit', 'TypeScript', 'Tailwind CSS', 'GoLang'],
 			github: 'https://github.com/ofkm/svelocker-ui',
 			image: '/images/svelocker.png'
+		},
+		{
+			title: 'Arcane',
+			description: 'Simple and Elegant Docker Management UI written in Typescript and SvelteKit.',
+			tags: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
+			github: 'https://github.com/ofkm/svelocker-ui',
+			image: '/images/arcane.png'
 		},
 		{
 			title: 'Pocket ID',
