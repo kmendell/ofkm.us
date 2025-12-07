@@ -6,7 +6,6 @@
 	import Contact from '$lib/components/Contact.svelte';
 	import BackgroundLines from '$lib/components/ui/BackgroundLines.svelte';
 	import AuroraText from '$lib/components/ui/AuroraText.svelte';
-	import Spotlight from '$lib/components/ui/Spotlight.svelte';
 </script>
 
 <svelte:head>
@@ -16,7 +15,6 @@
 
 <main>
 	<BackgroundLines class="flex min-h-screen flex-col items-center justify-center px-4 text-center relative overflow-hidden">
-		<Spotlight class="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
 		<h1 class="mb-4 text-5xl font-bold md:text-6xl text-white z-20">
 			Hi, I'm <AuroraText class="font-bold">Kyle Mendell</AuroraText>
 		</h1>
