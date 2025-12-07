@@ -4,6 +4,9 @@
 	import Projects from '$lib/components/Projects.svelte';
 	import Skills from '$lib/components/Skills.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import BackgroundLines from '$lib/components/ui/BackgroundLines.svelte';
+	import AuroraText from '$lib/components/ui/AuroraText.svelte';
+	import Spotlight from '$lib/components/ui/Spotlight.svelte';
 </script>
 
 <svelte:head>
@@ -12,21 +15,22 @@
 </svelte:head>
 
 <main>
-	<section class="flex min-h-screen flex-col items-center justify-center px-4 text-center">
-		<h1 class="mb-4 text-5xl font-bold md:text-6xl">
-			Hi, I'm <span class="text-cyan-400">Kyle Mendell</span>
+	<BackgroundLines class="flex min-h-screen flex-col items-center justify-center px-4 text-center relative overflow-hidden">
+		<Spotlight class="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
+		<h1 class="mb-4 text-5xl font-bold md:text-6xl text-white z-20">
+			Hi, I'm <AuroraText class="font-bold">Kyle Mendell</AuroraText>
 		</h1>
 
-		<p class="mb-8 max-w-lg text-xl text-gray-300">
+		<p class="mb-8 max-w-lg text-xl text-gray-300 z-20">
 			Support Engineer & Open Source developer focused on building unique and functional software.
 		</p>
 
-		<div class="mb-12 flex space-x-8">
+		<div class="mb-12 flex space-x-8 z-20">
 			<a
 				href="https://github.com/kmendell"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-gray-400 transition-colors hover:text-cyan-400"
+				class="text-gray-400 transition-colors hover:text-primary-400"
 				aria-label="GitHub"
 			>
 				<Github class="h-6 w-6" />
@@ -35,7 +39,7 @@
 				href="https://linkedin.com/in/kyle-mendell"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-gray-400 transition-colors hover:text-cyan-400"
+				class="text-gray-400 transition-colors hover:text-primary-400"
 				aria-label="LinkedIn"
 			>
 				<Linkedin class="h-6 w-6" />
@@ -44,7 +48,7 @@
 				href="https://twitter.com/OfficialKSM_"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-gray-400 transition-colors hover:text-cyan-400"
+				class="text-gray-400 transition-colors hover:text-primary-400"
 				aria-label="Twitter"
 			>
 				<Twitter class="h-6 w-6" />
@@ -53,12 +57,12 @@
 
 		<a
 			href="#about"
-			class="flex animate-bounce items-center justify-center text-gray-400 transition-colors hover:text-cyan-400"
+			class="flex animate-bounce items-center justify-center text-gray-400 transition-colors hover:text-primary-400 z-20"
 		>
 			<ArrowDown class="h-8 w-8" />
 			<span class="sr-only">Scroll down</span>
 		</a>
-	</section>
+	</BackgroundLines>
 
 	<!-- Other Sections -->
 	<About />
