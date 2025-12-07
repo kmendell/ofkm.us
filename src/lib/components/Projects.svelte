@@ -47,16 +47,16 @@
 					class="group relative overflow-hidden rounded-xl border border-gray-800 bg-gray-900/50 transition-all duration-300 hover:-translate-y-2 hover:border-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/10"
 				>
 					{#if project.image}
-						<div class="h-48 w-full overflow-hidden">
+						<div class="aspect-video w-full overflow-hidden rounded-t-xl bg-gray-900">
 							<img
 								src={project.image}
 								alt={project.title}
-								class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+								class="h-full w-full object-contain transition-transform duration-500 group-hover:scale-110"
 							/>
 						</div>
 					{:else}
-						<div class="flex h-48 w-full items-center justify-center bg-gray-800">
-							<span class="text-6xl font-bold text-gray-700">{project.title.charAt(0)}</span>
+						<div class="flex aspect-video w-full items-center justify-center bg-linear-to-br from-gray-800 to-gray-900 rounded-t-xl">
+							<span class="text-4xl font-bold text-gray-400">{project.title.charAt(0)}</span>
 						</div>
 					{/if}
 
