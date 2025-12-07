@@ -20,10 +20,10 @@
 		},
 		{
 			title: 'Arcane',
-			description: 'Simple and Elegant Docker Management UI written in Typescript and SvelteKit.',
+			description: 'Modern Docker Management, Designed for Everyone.',
 			tags: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
-			github: 'https://github.com/ofkm/svelocker-ui',
-			image: '/images/arcane.png'
+			github: 'https://github.com/getarcaneapp/arcane',
+			image: 'https://raw.githubusercontent.com/getarcaneapp/website/refs/heads/main/static/img/logo.svg'
 		},
 		{
 			title: 'Pocket ID',
@@ -32,14 +32,6 @@
 			tags: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
 			link: 'https://demo.pocket-id.org',
 			github: 'https://github.com/pocket-id/pocket-id',
-			image: '/images/pocket-id.png'
-		},
-		{
-			title: 'Pocket ID Portal',
-			description:
-				'Example End User Portal for Accessing/Viewing information from Pocket ID using the API.',
-			tags: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
-			github: 'https://github.com/pocket-id/pocket-id-portal',
 			image: '/images/pocket-id.png'
 		}
 	];
